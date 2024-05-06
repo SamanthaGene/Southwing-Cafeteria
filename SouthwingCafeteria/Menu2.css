@@ -1,0 +1,171 @@
+        .menu-container {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          min-height: 599px;
+          max-width: 587px;
+          padding-bottom: 32px;
+          overflow: hidden;
+        }
+      
+        .menu-background {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      
+        .menu-content {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding: 46px 19px 80px;
+          border: 1px solid rgba(145, 141, 141, 1);
+          border-radius: 30px;
+          background-color: #f4e3cc;
+        }
+      
+        @media (max-width: 991px) {
+          .menu-content {
+            max-width: 100%;
+            padding-right: 20px;
+          }
+        }
+      
+        .menu-title {
+          align-self: stretch;
+          border: 1px solid rgba(0, 0, 0, 0.3);
+          color: #000;
+          font: 400 20px Alice, sans-serif;
+          -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
+        }
+      
+        @media (max-width: 991px) {
+          .menu-title {
+            max-width: 100%;
+          }
+        }
+      
+        .menu-item {
+          margin: 4px 0 0 13px;
+          border: 1px solid rgba(145, 141, 141, 0.3);
+          color: #000;
+          font: 400 20px Alice, sans-serif;
+          -webkit-text-stroke: 1px rgba(145, 141, 141, 0.3);
+        }
+      
+        @media (max-width: 991px) {
+          .menu-item {
+            max-width: 100%;
+          }
+        }
+      
+        .menu-item-first {
+          margin: 13px 0 0 13px;
+        }
+      
+        .menu-item-last {
+          margin-left: 13px;
+        }
+      
+        .drinks-section {
+          margin: 72px 0 11px 13px;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-section {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+      
+        .drinks-container {
+          display: flex;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-container {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+      
+        .drinks-image-column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 20%;
+          margin-left: 0px;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-image-column {
+            width: 100%;
+          }
+        }
+      
+        .drinks-image {
+          width: 104px;
+          max-width: 100%;
+          aspect-ratio: 0.61;
+          margin-top: 46px;
+          border: 1px solid rgba(0, 0, 0, 1);
+          object-fit: auto;
+          object-position: center;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-image {
+            margin-top: 40px;
+          }
+        }
+      
+        .drinks-list-column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 80%;
+          margin-left: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-list-column {
+            width: 100%;
+          }
+        }
+      
+        .drinks-list {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          color: #000;
+          font: 400 20px Alice, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .drinks-list {
+            margin-top: 13px;
+          }
+        }
+      
+        .drinks-title {
+          border: 1px solid rgba(0, 0, 0, 0.3);
+          font-family: Alice, sans-serif;
+          -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
+        }
+      
+        .drinks-item {
+          margin-top: 8px;
+          border: 1px solid rgba(145, 141, 141, 0.3);
+          font-family: Alice, sans-serif;
+          -webkit-text-stroke: 1px rgba(145, 141, 141, 0.3);
+        }
+      
+        .drinks-item-last {
+          margin-top: 4px;
+        }

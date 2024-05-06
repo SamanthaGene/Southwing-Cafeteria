@@ -1,0 +1,71 @@
+        .thank-you-container {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          font-weight: 400;
+          text-align: center;
+          justify-content: center;
+        }
+      
+        .thank-you-content {
+          background-color: #000;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          padding: 80px 60px;
+        }
+      
+        @media (max-width: 991px) {
+          .thank-you-content {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+        }
+      
+        .thank-you-message {
+          display: flex;
+          width: 447px;
+          max-width: 100%;
+          flex-direction: column;
+          align-items: center;
+          margin: 8px 0 14px;
+        }
+      
+        .thank-you-image {
+          aspect-ratio: 1;
+          object-fit: auto;
+          object-position: center;
+          width: 197px;
+          max-width: 100%;
+          alt: "Thank you for ordering image";
+        }
+      
+        .thank-you-heading {
+          color: #fcc832;
+          -webkit-text-stroke-width: 1;
+          -webkit-text-stroke-color: rgba(145, 141, 141, 0.3);
+          border: 1px solid rgba(145, 141, 141, 0.3);
+          margin-top: 86px;
+          font: 60px Alice, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .thank-you-heading {
+            max-width: 100%;
+            margin-top: 40px;
+            font-size: 40px;
+          }
+        }
+      
+        .back-to-home-link {
+          color: #fff;
+          margin-top: 169px;
+          font: 30px Alice, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .back-to-home-link {
+            margin-top: 40px;
+          }
+        }

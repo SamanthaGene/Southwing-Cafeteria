@@ -1,0 +1,243 @@
+.container {
+    background-color: #f4e3cc;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    background-color: #fcc832;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    font-size: 27px;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+    padding: 19px 48px;
+  }
+
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+
+  .logo {
+    aspect-ratio: 1.05;
+    object-fit: auto;
+    object-position: center;
+    width: 106px;
+    align-self: stretch;
+    max-width: 100%;
+  }
+
+  .nav-item {
+    font-family: Alice, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+  .nav-item-orders {
+    font-family: Alice, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+
+  .divider {
+    background-color: #f4e3cc;
+    min-height: 9px;
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    .divider {
+      max-width: 100%;
+    }
+  }
+
+  .main-section {
+    background-color: rgba(0, 0, 0, 0.69);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 991px) {
+    .main-section {
+      max-width: 100%;
+    }
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 788px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+  }
+
+  @media (max-width: 991px) {
+    .hero {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1186px;
+    margin: 151px 0 25px;
+  }
+
+  @media (max-width: 991px) {
+    .content-wrapper {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .content-container {
+    gap: 20px;
+    display: flex;
+  }
+
+  @media (max-width: 991px) {
+    .content-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 58%;
+    margin-left: 0px;
+  }
+
+  @media (max-width: 991px) {
+    .image-column {
+      width: 100%;
+    }
+  }
+
+  .featured-image {
+    aspect-ratio: 1.45;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    border-color: rgba(145, 141, 141, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .featured-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 42%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .text-column {
+      width: 100%;
+    }
+  }
+
+  .text-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .text-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .heading {
+    align-self: stretch;
+    font: 70px Artifika, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .heading {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+
+  .subheading {
+    margin-top: 40px;
+    font: 40px Alice, sans-serif;
+  }
+
+  .description {
+    margin-top: 72px;
+    font: 20px Anek Devanagari, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .description {
+      margin-top: 40px;
+    }
+  }
+
+  .footer {
+    text-decoration-line: underline;
+    background-color: #918d8d;
+    width: 100%;
+    align-items: end;
+    color: #000;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 31px 60px;
+    font: 400 20px Alice, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .footer {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 30px 0 20px;
+    }
+  }
